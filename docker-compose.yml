@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  api-pptx:
+    build: .
+    container_name: api-pptx-container
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./temp:/app/temp
+    restart: unless-stopped
