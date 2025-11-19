@@ -1,0 +1,51 @@
+
+[
+{
+"action":
+"parse",
+"response":
+{
+"output":
+{
+"sumario_executivo":
+"A empresa identificou desafios significativos relacionados ao problema atual, que impactam diretamente na eficiência operacional e nos custos envolvidos. O objetivo principal é otimizar esses processos para alcançar uma redução substancial no tempo e recursos consumidos, garantindo maior agilidade e qualidade nos resultados.\n\nPara isso, propomos a implementação de uma solução baseada em automação inteligente que permitirá reduzir em 90% as horas dedicadas às atividades manuais, gerando uma economia financeira expressiva e liberando a equipe para focar em atividades estratégicas. Essa abordagem alinha tecnologia de ponta com as necessidades do negócio, promovendo um ambiente mais produtivo e sustentável.",
+"analise_numerica":
+"A análise quantitativa demonstra um retorno sobre o investimento altamente positivo, considerando a economia financeira estimada em R$ 9.900,00 e a redução de 54 horas no processo atual. Tal ganho representa um aumento significativo na eficiência operacional, contribuindo diretamente para a redução dos custos recorrentes.\n\nAlém disso, com um custo estimado de projeto de R$ 25.000,00 e um esforço de 4 semanas para implementação, a solução proposta se justifica plenamente frente ao benefício recuperado em curto prazo, elevando substancialmente o ROI do projeto.",
+"solucao_tecnica":
+"A solução Microsoft proposta integra Power Automate, Azure OpenAI e SharePoint para automatizar os processos manuais existentes. Utilizando ferramentas de automação e inteligência artificial, será possível reduzir tarefas repetitivas, melhorar a gestão documental e promover maior controle e governança dos dados.\n\nA arquitetura contempla a adaptação aos sistemas legados, mitiga riscos operacionais e oferece escalabilidade para futuras melhorias, garantindo alinhamento tecnológico e estratégico com as necessidades do cliente.",
+"nome_processo":
+"teste-doc-gen-123 - Otimização de Processos",
+"descricao_processo":
+"N/A",
+"tecnologias_propostas":
+"Power Automate, Azure OpenAI, SharePoint",
+"comentarios_adicionais":
+"O processo atual depende de planilhas manuais e e-mail, gerando alto risco operacional.",
+"riscos_mapeados":
+"Resistência à mudança, Integração com sistemas legados.",
+"horas_beneficio":
+"~54h/ano",
+"dinheiro_beneficio":
+"~R$ 9900",
+"esforco_semanas":
+"4 Semanas",
+"custo_projeto":
+"R$ 25.000,00",
+"check_automacao":
+"☑",
+"check_processo":
+"☐",
+"check_governanca":
+"☐",
+"check_pp":
+"☐",
+"check_p":
+"☐",
+"check_m":
+"☑",
+"check_g":
+"☐"
+}
+}
+}
+]
