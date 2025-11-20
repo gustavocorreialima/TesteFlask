@@ -9,3 +9,9 @@ services:
     volumes:
       - ./temp:/app/temp
     restart: unless-stopped
+    networks:
+    - shared-network
+    
+networks:
+  shared-network:
+    external: true
