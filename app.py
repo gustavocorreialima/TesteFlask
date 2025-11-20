@@ -3,7 +3,7 @@ from pptx import Presentation
 from datetime import datetime
 from io import BytesIO
  
-app = Flask(_name_)
+app = Flask(__name__)
  
 # Configurações
 TEMPLATE_PATH = "template.pptx"
@@ -61,5 +61,5 @@ def health():
     """Rota para verificar se a API está funcionando"""
     return jsonify({'status': 'OK', 'mensagem': 'API funcionando'}), 200
  
-if _name_ == '_main_':
+if __name__ == '__main__':
     app.run(debug=False, host='0.0.0.0', port=5000)
